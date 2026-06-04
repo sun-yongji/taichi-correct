@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taichi-correct"
+version = "0.1.0"
+description = "TaiChi-Correct: C6 Symmetry Error Correction Engine (CCF OSS 2026 M5)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+]
+
+[tool.setuptools.packages.find]
+include = ["taichi_correct*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
