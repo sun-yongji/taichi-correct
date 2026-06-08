@@ -1,4 +1,4 @@
-﻿[![CI](https://github.com/sun-yongji/taichi-correct/actions/workflows/ci.yml/badge.svg)](https://github.com/sun-yongji/taichi-correct/actions/workflows/ci.yml)
+[![CI](https://github.com/sun-yongji/taichi-correct/actions/workflows/ci.yml/badge.svg)](https://github.com/sun-yongji/taichi-correct/actions/workflows/ci.yml)
 
 # TaiChi-Correct 🛡️ C6共识迭代校正引擎
 
@@ -54,7 +54,7 @@ print(f"Confidence: {corrector.confidence:.1%}")
 | **M5** | **taichi-correct** ← 你在这里 | 共识校正 |
 | M6 | [taichi-matrix](https://gitee.com/sun-yongji-yuyubenyuan_admin/taichi-matrix) | 统一入口 |
 
-技术白皮书：[太极矩阵技术白皮书](https://docs.qq.com/aio/DTldDRGpIbGdseG1H)
+技术白皮书：[太极矩阵技术白皮书(中文)](https://docs.qq.com/aio/DTldDRGpIbGdseG1H) | [WHITEPAPER.md (English)](https://github.com/sun-yongji/taichi-matrix/blob/master/WHITEPAPER.md)
 
 ## 许可
 
